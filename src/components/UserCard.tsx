@@ -9,7 +9,7 @@ const UserCard = ({type}:{type : string}) => {
         <Image src="/more.png" width={14} height={14} alt='' />
       </div>
       <h1 className='text-2xl font-semibold my-4'>6,123</h1>
-      <h2 className='capitalize'>{type}</h2>
+      <h2 className='capitalize text-sm text-gray-500 font-medium'>{type}</h2>
     </div>
   )
 }
