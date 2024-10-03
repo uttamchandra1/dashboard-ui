@@ -2,9 +2,9 @@ import React from 'react'
 
 const Table = ({columns , renderRow , data} : {
     columns : {header : string ; accessor : string; className?:string }[];
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    //@ts-ignore
     renderRow : (item : any) => React.ReactNode;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    //@ts-ignore
     data : any[];
 }) => {
   return (
